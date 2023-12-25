@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+ }
+
+ .container1 {
+background: url(image/pexels-george-dolgikh-1303081.jpg);
+background-position: right;
+background-size: 100% 100%;   
+height: 100vh;
+
+ }
+ 
+ .container1 header h3 {
+     margin: 0;
+    height: 40px;
+     background-color: rgb(255, 217, 0);
+    padding-top: 10px;
+    padding-left: 70px;
+    font-size: 15px;
+ }
+ .container1 header h3 i{
+     color: rgb(255, 145, 2);
+ }
+ 
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+    
+ }
+ .navbar .logo{
+  padding-top: 30px;
+  padding-left: 100px;
+ }
+ .navbar .logo a{
+     color: #ffffff;
+     font-size: 20px;
+     text-decoration: none;
+ }
+ 
+ .navbar .lisdeler ul{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 6px;
+     list-style: none;
+     padding-right: 40px;
+ }
+ 
+ .navbar .lisdeler ul li a{
+     color: #ffffff;
+     text-decoration: none;
+     list-style: none;
+     padding-left: 60px;
+     transition: ease 250ms all;
+ }
+ 
+ .navbar .lisdeler ul li a:hover{
+     color: #ff6200;
+ }
+ 
+ .container1 .lisdeler ul li:first-child a {
+     color: #ff6200; 
+     font-size: small 18px;
+ }
+ .container1 .lisdeler ul li:last-child a{
+ background-color: #ff6200;
+ color: #ffffff;
+ border-radius: 30px;
+ padding: 10px;
+ margin-left: 4rem;
+ }
+ .container1 .lisdeler ul li:last-child a:hover{
+     background-color:#ed3300;
+ }
+ 
+ .main {
+    position: absolute;
+    top: 120px;
+    left: 12%;
+    color: #ffffff;
+    text-align: center;
+ }
+ 
+ .main h4{
+     font-size: 13px;
+     margin-top: 100px;
+ }
+ .main h1{
+   font-size: 60px;
+ margin-top: -10px;
+ }
+ 
+ .main button{
+     font-size: 14px;
+     padding:10px;
+     border-radius: 2rem;
+     border: none;
+     background-color: #ff6200;
+     color: #ffffff;
+     cursor: pointer;
+     transition: ease 300ms all;
+ }
+ .main button:hover{
+     background-color: #ed3300;
+ }
+ 
+ .main .altnavbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     column-gap: 180px;
+     padding-top:7rem;
+ }
+ 
+ .altnavbar h3 {
+     font-size:20px;
+ }
+ .altnavbar h3 i{
+     color: #ff6200;
+ }
+ .altnavbar ul{
+     display: flex;
+     list-style: none;
+ margin-left: -200px;
+ }
+ .altnavbar li i{
+ padding: 10px;
+ background-color: #ff6200;
+ margin: 5px;
+ border-radius:50%;
+ transition: ease 500ms all;
+ cursor: pointer;
+ 
+ }
+ .altnavbar li i:hover{
+     background-color: #ffea00;
+     color: #ed3300;
+     transform: rotate(360deg)
+ 
+ }
+ .container2{
+    height: 100vh;
+ }
