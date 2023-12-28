@@ -426,4 +426,214 @@ position: relative;
     font-weight: 600;
     margin-bottom:10px;
 }
+/* /ucuncubolum */
 
+
+/* durduncuvolum */
+.container4{
+    height: 110vh;
+background: url(image/nainoa-shizuru-unsplash-blur.jpg);
+background-position:center;
+background-size: cover;
+}
+.container4 h3{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    display: grid;
+    grid-template-columns:150px 350px 300px 350px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    column-gap:1px;
+}
+.cell1{
+    background-color: #ff6200;
+    height: 50px;
+    border-radius:30px 0 0 0;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.cell2{
+    background-color: #ff6200;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.cell3{
+    background-color: #ff6200;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.cell4{
+    background-color:  #ff6200;
+    border-radius: 0 30px 0 0;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+/* aaaa */
+
+
+.table-container1{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:150px 350px 300px 350px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.call1{
+    background-color:#363a3e;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.call2{
+    background: url(artists/joecalih-UmTZqmMvQcw-unsplash.jpg);
+    background-position:center;
+    background-size: cover;
+    filter:blur(0.200px);
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 24px;
+}
+.call2 p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.call3{
+    background-color:#F3DCD4;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.call4{
+    background: url(artists/abstral-official-bdlMO9z5yco-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 105px;
+    padding-top: 25px;
+    padding-left: 120px;
+    font-size: 23px;
+}
+.call4 p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.p1{
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+/* aasasaas */
+
+
+.table-container2{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:150px 350px 300px 350px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cxll1{
+    background-color:#363a3e;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.cxll2{
+background-color:#F3DCD4;
+    height: 130px;
+}
+.cxll3{
+    background-color: #363a3e;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 24px;
+}
+.cxll3 p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.cxll4{
+    background-color:#D9E3DA;
+    height: 105px;
+    padding-top: 25px;
+    padding-left: 120px;
+    font-size: 23px;
+}
+
+
+/* bbbbb */
+
+.table-container3{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:150px 350px 300px 350px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.cvll1{
+    background-color:#363a3e;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 60px;
+    border-radius: 0 0 0 30px;
+}
+.cvll2{
+background: url(artists/soundtrap-rAT6FJ6wltE-unsplash.jpg);    background-position: center;
+    background-size: cover;
+    height: 105px;
+    padding-top: 25px;
+    padding-left: 120px;
+    font-size: 23px;
+}
+.cvll2 p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.cvll3{
+    background-color:#D9E3DA;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 24px;
+}
+.cvll4{
+    background-color:#363a3e;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 24px;
+    border-radius: 0 0 30px 0;
+}
+.cvll4 p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+}
